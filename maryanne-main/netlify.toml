@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  command = "echo 'No build command needed for static site'"
+
+# Redirects are handled in the _redirects file
+# This allows for more precise control of routing
+
+[template.environment]
+  DESCRIPTION = "Static website for Maryanne Advisors Business Setup"

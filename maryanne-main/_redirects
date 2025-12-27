@@ -1,0 +1,3 @@
+# Netlify redirects
+/ma/page/* /index.html 200
+/ma/* /index.html 200

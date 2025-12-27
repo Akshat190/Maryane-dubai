@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('https://fonts.assets-landingi.com/N1mowp0e/AvenirLTStd_Black.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}@font-face {
+  font-family: 'Avenir';
+  src: url('https://fonts.assets-landingi.com/JBc1wnsq/AvenirLTStd_Book.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
