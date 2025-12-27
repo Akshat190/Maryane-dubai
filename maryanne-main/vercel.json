@@ -20,21 +20,10 @@
       ]
     }
   ],
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/ma/page",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/ma/page/",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/ma/page/:path*",
-      "destination": "/",
-      "permanent": true
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
