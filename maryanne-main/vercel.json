@@ -1,0 +1,40 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/ma/page",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ma/page/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ma/page/:path*",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}

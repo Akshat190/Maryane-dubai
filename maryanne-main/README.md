@@ -10,9 +10,11 @@ This is a static website for Maryanne Advisors, a business setup consultancy in 
 - `_redirects` - Netlify redirect configuration
 - `netlify.toml` - Netlify deployment configuration
 
-## Deployment to Netlify
+## Deployment Options
 
-### Method 1: Direct Drag and Drop
+### Deploy to Netlify
+
+#### Method 1: Direct Drag and Drop
 1. Go to [Netlify](https://app.netlify.com/)
 2. Create a new account or sign in
 3. Drag and drop the entire project folder onto the Netlify dashboard
